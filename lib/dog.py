@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 APPROVED_BREEDS = [
     "Mastiff",
     "Chihuahua",
@@ -12,4 +10,6 @@ APPROVED_BREEDS = [
 ]
 
 class Dog:
-    pass
+    def __init__(self, name="", breed=""):
+        self.name = name
+        self.breed = breed

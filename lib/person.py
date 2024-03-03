@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 APPROVED_JOBS = [
     "Admin",
     "Customer Service",
@@ -16,4 +14,6 @@ APPROVED_JOBS = [
 ]
 
 class Person:
-    pass
+    def __init__(self, name="", job=""):
+        self.name = name
+        self.job = job
